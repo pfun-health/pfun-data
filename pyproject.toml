@@ -1,6 +1,6 @@
 [project]
 name = "pfun-data"
-version = "0.1.2"
+version = "0.1.3"
 description = "data utils for pfun digital health."
 readme = "README.md"
 requires-python = "==3.12.*"
@@ -28,9 +28,6 @@ pfun-data-unzipcsv2parquet = "data.tools:main"
 [build-system]
 requires = ["hatchling", "wheel", "setuptools"]
 build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/data"]
 
 [dependency-groups]
 dev = [
