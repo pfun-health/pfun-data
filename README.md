@@ -1,4 +1,4 @@
-# pfun-health/Data
+# pfun-health/pfun-data
 
     NOTE: under very active development!
 
