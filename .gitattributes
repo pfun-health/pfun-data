@@ -1,4 +1,4 @@
 *.parquet filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
+_raw_data/sharpicManU/*.csv filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 _raw_data/d1namo-ecg-glucose-data/ filter=lfs diff=lfs merge=lfs -text
