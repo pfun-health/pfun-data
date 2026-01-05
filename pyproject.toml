@@ -1,6 +1,6 @@
 [project]
 name = "pfun-data"
-version = "0.1.4"
+version = "0.1.5"
 description = "data utils for pfun digital health."
 readme = "README.md"
 requires-python = "==3.12.*"
@@ -14,7 +14,7 @@ dependencies = [
     "pandas>=2.3.2",
     "pfun-path-helper>=0.1.4",
     "psycopg2-binary",
-    "pydantic==2.4.2",
+    "pydantic>=2.4.2",
     "pydantic-settings",
     "scipy>=1.16.2",
     "seaborn>=0.13.2",
