@@ -1,0 +1,83 @@
+{
+  "author" : [
+    {
+      "reference" : "Practitioner/a-7697.Provider-4"
+    }
+  ],
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    },
+    {
+      "coding" : [
+        {
+          "display" : "Encounter Note",
+          "system" : "https://fhir.athena.io/CodeSystem/ah-document-reference-category",
+          "code" : "encounter-note"
+        }
+      ]
+    }
+  ],
+  "content" : [
+    {
+      "attachment" : {
+        "contentType" : "text/html",
+        "hash" : "uFjLKCYX+wlW2WAhXI6E0cz5CcY="
+      }
+    }
+  ],
+  "id" : "a-7697.hpiTemplate-208674",
+  "status" : "current",
+  "context" : {
+    "period" : {
+      "end" : "2017-11-29T13:42:04Z",
+      "start" : "2017-11-29T12:48:57Z"
+    },
+    "encounter" : [
+      {
+        "reference" : "Encounter/a-7697.encounter-208674",
+        "identifier" : {
+          "system" : "https://fhir.athena.io/sid/ah-encounter",
+          "value" : "a-7697.encounter-208674"
+        }
+      }
+    ]
+  },
+  "date" : "2017-11-29T13:00:00.000Z",
+  "type" : {
+    "coding" : [
+      {
+        "display" : "History and physical note",
+        "system" : "http://loinc.org",
+        "code" : "34117-2"
+      },
+      {
+        "display" : "History of Present Illness Narrative",
+        "system" : "http://loinc.org",
+        "code" : "10164-2"
+      },
+      {
+        "display" : "History and physical note",
+        "system" : "https://hl7.org/fhir/valueset-doc-section-codes.html",
+        "code" : "34117-2"
+      },
+      {
+        "display" : "History of Present Illness Narrative",
+        "system" : "https://hl7.org/fhir/valueset-doc-section-codes.html",
+        "code" : "10164-2"
+      },
+      {
+        "display" : "History of Present Illness Template",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-encounter-section-item",
+        "code" : "HPITemplate"
+      }
+    ]
+  },
+  "resourceType" : "DocumentReference"
+}

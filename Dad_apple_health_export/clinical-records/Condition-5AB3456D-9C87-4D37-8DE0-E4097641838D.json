@@ -1,0 +1,96 @@
+{
+  "id" : "a-7697.EncounterDx-2052165",
+  "category" : [
+    {
+      "text" : "Encounter Diagnosis",
+      "coding" : [
+        {
+          "display" : "Encounter Diagnosis",
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "encounter-diagnosis"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-870515"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "onsetDateTime" : "2025-08-04T10:20:24-04:00",
+  "resourceType" : "Condition",
+  "verificationStatus" : {
+    "text" : "Confirmed",
+    "coding" : [
+      {
+        "display" : "Confirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code" : "confirmed"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.EncounterDx-2052165"
+    }
+  ],
+  "code" : {
+    "text" : "Bigeminy",
+    "coding" : [
+      {
+        "code" : "11157007",
+        "userSelected" : false,
+        "display" : "Ventricular bigeminy",
+        "system" : "http://snomed.info/sct"
+      },
+      {
+        "code" : "I49.8",
+        "userSelected" : false,
+        "display" : "Other specified cardiac arrhythmias",
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+      },
+      {
+        "code" : "57981",
+        "userSelected" : true,
+        "display" : "Bigeminy",
+        "system" : "urn:oid:2.16.840.1.113883.3.247.1.1"
+      }
+    ]
+  },
+  "recordedDate" : "2025-08-04T10:20:24-04:00",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ],
+    "lastUpdated" : "2025-08-04T10:20:24.000-04:00"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime" : "2025-08-04T10:20:24-04:00"
+    }
+  ],
+  "clinicalStatus" : {
+    "text" : "Active",
+    "coding" : [
+      {
+        "display" : "Active",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code" : "active"
+      }
+    ]
+  }
+}

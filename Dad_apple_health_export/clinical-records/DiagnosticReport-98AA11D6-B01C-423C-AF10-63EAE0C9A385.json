@@ -1,0 +1,87 @@
+{
+  "id" : "a-7697.clinicalresult-227193",
+  "effectiveDateTime" : "2016-11-10T18:13:00.000Z",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code" : "LAB"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-151583"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DiagnosticReport",
+  "basedOn" : [
+    {
+      "reference" : "ServiceRequest/a-7697.ambulatoryorder-1347789"
+    }
+  ],
+  "code" : {
+    "text" : "PSA total (reflex to free)-480772-P",
+    "coding" : [
+      {
+        "display" : "PSA, serum or plasma",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-order-type",
+        "code" : "342159"
+      },
+      {
+        "display" : "PSA total (reflex to free)-480772-P",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-provider-order-type",
+        "code" : "625571"
+      }
+    ]
+  },
+  "performer" : [
+    {
+      "reference" : "Organization/a-1.CP-10810885"
+    }
+  ],
+  "meta" : {
+    "lastUpdated" : "2016-11-11T18:25:09.000Z"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-note-to-patient",
+      "valueString" : "Normal prostate screening test."
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-document-details",
+      "extension" : [
+        {
+          "url" : "status",
+          "valueString" : "CLOSED"
+        }
+      ]
+    }
+  ],
+  "result" : [
+    {
+      "reference" : "Observation/a-7697.resultamb-934652"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-934653"
+    }
+  ],
+  "status" : "final",
+  "issued" : "2016-11-11T15:10:51.000Z"
+}

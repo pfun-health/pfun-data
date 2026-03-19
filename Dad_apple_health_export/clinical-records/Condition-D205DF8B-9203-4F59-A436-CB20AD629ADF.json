@@ -1,0 +1,91 @@
+{
+  "id" : "a-7697.EncounterDx-812616",
+  "category" : [
+    {
+      "text" : "Encounter Diagnosis",
+      "coding" : [
+        {
+          "display" : "Encounter Diagnosis",
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "encounter-diagnosis"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-401051"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "onsetDateTime" : "2020-07-07T09:06:16-04:00",
+  "resourceType" : "Condition",
+  "abatementDateTime" : "2021-09-20",
+  "verificationStatus" : {
+    "text" : "Confirmed",
+    "coding" : [
+      {
+        "display" : "Confirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code" : "confirmed"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.EncounterDx-812616"
+    }
+  ],
+  "code" : {
+    "text" : "Closed fracture of proximal phalanx of great toe",
+    "coding" : [
+      {
+        "code" : "704211004",
+        "userSelected" : false,
+        "display" : "Closed fracture of proximal phalanx of great toe",
+        "system" : "http://snomed.info/sct"
+      },
+      {
+        "code" : "S92.411D",
+        "userSelected" : true,
+        "display" : "Displaced fracture of proximal phalanx of right great toe, subsequent encounter for fracture with routine healing",
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+      }
+    ]
+  },
+  "recordedDate" : "2020-07-07T09:06:16-04:00",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ],
+    "lastUpdated" : "2020-07-07T09:07:08.000-04:00"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime" : "2020-07-07T09:06:16-04:00"
+    }
+  ],
+  "clinicalStatus" : {
+    "text" : "Inactive",
+    "coding" : [
+      {
+        "display" : "Inactive",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code" : "inactive"
+      }
+    ]
+  }
+}

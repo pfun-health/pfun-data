@@ -1,0 +1,96 @@
+{
+  "id" : "a-7697.EncounterDx-2079733",
+  "category" : [
+    {
+      "text" : "Encounter Diagnosis",
+      "coding" : [
+        {
+          "display" : "Encounter Diagnosis",
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "encounter-diagnosis"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-881563"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "onsetDateTime" : "2025-09-08T11:44:31-04:00",
+  "resourceType" : "Condition",
+  "verificationStatus" : {
+    "text" : "Unconfirmed",
+    "coding" : [
+      {
+        "display" : "Unconfirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code" : "unconfirmed"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.EncounterDx-2079733"
+    }
+  ],
+  "code" : {
+    "text" : "Flu vaccine need",
+    "coding" : [
+      {
+        "code" : "185903001",
+        "userSelected" : false,
+        "display" : "Needs influenza immunization",
+        "system" : "http://snomed.info/sct"
+      },
+      {
+        "code" : "Z23",
+        "userSelected" : false,
+        "display" : "Encounter for immunization",
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+      },
+      {
+        "code" : "1713765",
+        "userSelected" : true,
+        "display" : "Flu vaccine need",
+        "system" : "urn:oid:2.16.840.1.113883.3.247.1.1"
+      }
+    ]
+  },
+  "recordedDate" : "2025-09-08T11:44:31-04:00",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ],
+    "lastUpdated" : "2025-09-08T11:44:31.000-04:00"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime" : "2025-09-08T11:44:31-04:00"
+    }
+  ],
+  "clinicalStatus" : {
+    "text" : "Active",
+    "coding" : [
+      {
+        "display" : "Active",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code" : "active"
+      }
+    ]
+  }
+}

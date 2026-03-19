@@ -1,0 +1,81 @@
+{
+  "id" : "a-7697.radiologyReport-7031988",
+  "description" : "Xr, Chest, 2 View",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "author" : [
+    {
+      "reference" : "Organization/a-1.CP-12107245"
+    }
+  ],
+  "resourceType" : "DocumentReference",
+  "context" : {
+    "period" : {
+      "start" : "2023-11-06",
+      "end" : "2023-11-06"
+    }
+  },
+  "type" : {
+    "coding" : [
+      {
+        "display" : "Imaging Narrative",
+        "system" : "http://loinc.org",
+        "code" : "18748-4"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.radiologyReport-7031988",
+      "system" : "https://fhir.athena.io/sid/ah-documentreference"
+    }
+  ],
+  "date" : "2023-11-07T23:02:23.000Z",
+  "meta" : {
+    "lastUpdated" : "2023-11-09T19:18:05.000Z"
+  },
+  "custodian" : {
+    "reference" : "Organization/a-1.Org-ATHENA"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.7031988.dp.SCANPAGE.2854423",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.7031988.dp.SCANPAGE.2854424",
+        "contentType" : "image/png"
+      }
+    }
+  ]
+}

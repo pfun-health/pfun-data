@@ -1,0 +1,69 @@
+{
+  "id" : "a-7697.resultamb-2602954",
+  "effectiveDateTime" : "2020-09-16T00:00:00-04:00",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "note" : [
+    {
+      "text" : "Roche ECLIA methodology.\n                                                                     .\nAccording to the American Urological Association, Serum PSA should\ndecrease and remain at undetectable levels after radical\nprostatectomy. The AUA defines biochemical recurrence as an initial\nPSA value 0.2 ng/mL or greater followed by a subsequent confirmatory\nPSA value 0.2 ng/mL or greater.\nValues obtained with different assay methods or kits cannot be used\ninterchangeably. Results cannot be interpreted as absolute evidence\nof the presence or absence of malignant disease."
+    }
+  ],
+  "resourceType" : "Observation",
+  "identifier" : [
+    {
+      "value" : "a-7697.resultamb-2602954",
+      "system" : "https://fhir.athena.io/sid/ah-observation"
+    }
+  ],
+  "code" : {
+    "text" : "prostate specific Ag, serum",
+    "coding" : [
+      {
+        "display" : "Prostate specific Ag [Mass/volume] in Serum or Plasma",
+        "system" : "http://loinc.org",
+        "code" : "2857-1"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "0.0-4.0"
+    }
+  ],
+  "meta" : {
+    "lastUpdated" : "2020-09-16T11:03:08.000Z"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "ng/mL",
+    "value" : 2.1,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "NG/mL"
+  },
+  "status" : "final"
+}

@@ -1,0 +1,141 @@
+{
+  "id" : "a-7697.clinicalresult-42801",
+  "effectiveDateTime" : "2014-05-28T13:45:00.000Z",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code" : "LAB"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-26319"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DiagnosticReport",
+  "basedOn" : [
+    {
+      "reference" : "ServiceRequest/a-7697.ambulatoryorder-191684"
+    }
+  ],
+  "code" : {
+    "text" : "CBC with auto diff",
+    "coding" : [
+      {
+        "display" : "CBC w/ auto diff",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-order-type",
+        "code" : "257017"
+      },
+      {
+        "display" : "CBC with auto diff",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-provider-order-type",
+        "code" : "940029"
+      }
+    ]
+  },
+  "performer" : [
+    {
+      "reference" : "Organization/a-1.CP-11872698"
+    }
+  ],
+  "meta" : {
+    "lastUpdated" : "2015-09-29T08:30:37.000Z"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-note-to-patient",
+      "valueString" : "No anemia or sign of infection."
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-document-details",
+      "extension" : [
+        {
+          "url" : "status",
+          "valueString" : "CLOSED"
+        }
+      ]
+    }
+  ],
+  "result" : [
+    {
+      "reference" : "Observation/a-7697.resultamb-147558"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147559"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147560"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147561"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147562"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147563"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147564"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147565"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147566"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147567"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147568"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147569"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147570"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147571"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147572"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147573"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147574"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147575"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147576"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-147577"
+    }
+  ],
+  "status" : "final",
+  "issued" : "2014-06-03T20:02:10.000Z"
+}

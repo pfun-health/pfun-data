@@ -1,0 +1,88 @@
+{
+  "id" : "a-7697.cardiologyReport-8224913",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "description" : "Us, Echocardiogram",
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DocumentReference",
+  "context" : {
+    "period" : {
+      "start" : "2025-01-02",
+      "end" : "2025-01-02"
+    }
+  },
+  "type" : {
+    "coding" : [
+      {
+        "display" : "Cardiology Diagnostic Study Note",
+        "system" : "http://loinc.org",
+        "code" : "75425-9"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.cardiologyReport-8224913",
+      "system" : "https://fhir.athena.io/sid/ah-documentreference"
+    }
+  ],
+  "date" : "2025-01-07T12:50:11.000Z",
+  "meta" : {
+    "lastUpdated" : "2025-01-09T18:21:14.000Z"
+  },
+  "custodian" : {
+    "reference" : "Organization/a-1.Org-ATHENA"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.8224913.dp.SCANPAGE.3381299",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.8224913.dp.SCANPAGE.3381300",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.8224913.dp.SCANPAGE.3381301",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.8224913.dp.SCANPAGE.3381302",
+        "contentType" : "image/png"
+      }
+    }
+  ]
+}

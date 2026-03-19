@@ -1,0 +1,44 @@
+{
+  "status" : "completed",
+  "primarySource" : false,
+  "patient" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "id" : "a-7697.historical-81332",
+  "occurrenceDateTime" : "2015-09-14",
+  "vaccineCode" : {
+    "text" : "influenza, unspecified formulation",
+    "coding" : [
+      {
+        "display" : "influenza, unspecified formulation",
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "88"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.historical-81332",
+      "system" : "https://fhir.athena.io/sid/ah-immunization"
+    }
+  ],
+  "isSubpotent" : false,
+  "meta" : {
+    "lastUpdated" : "2023-11-09T13:56:56.000-05:00"
+  },
+  "resourceType" : "Immunization",
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ]
+}

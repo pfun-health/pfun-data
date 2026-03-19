@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Apple Health Export" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <time>2026-03-14T12:16:06Z</time>
+  </metadata>
+  <trk>
+    <name>Route 2022-11-03 11:22am</name>
+    <trkseg>
+      <trkpt lon="-82.149709" lat="33.555032"><ele>101.610016</ele><time>2022-11-03T15:22:16Z</time><extensions><speed>1.460000</speed><course>151.523438</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149697" lat="33.555017"><ele>101.541412</ele><time>2022-11-03T15:22:17Z</time><extensions><speed>1.870000</speed><course>151.875000</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149683" lat="33.555005"><ele>101.457855</ele><time>2022-11-03T15:22:18Z</time><extensions><speed>1.820000</speed><course>146.250000</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149662" lat="33.554990"><ele>101.160492</ele><time>2022-11-03T15:22:19Z</time><extensions><speed>2.950000</speed><course>135.000000</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149636" lat="33.554982"><ele>101.510345</ele><time>2022-11-03T15:22:20Z</time><extensions><speed>2.580000</speed><course>127.617188</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149613" lat="33.554981"><ele>102.146637</ele><time>2022-11-03T15:22:21Z</time><extensions><speed>2.580000</speed><course>127.968750</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149595" lat="33.554985"><ele>102.443451</ele><time>2022-11-03T15:22:22Z</time><extensions><speed>2.110000</speed><course>128.671875</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149586" lat="33.554991"><ele>102.519928</ele><time>2022-11-03T15:22:23Z</time><extensions><speed>0.910000</speed><course>133.242188</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-82.149579" lat="33.554998"><ele>102.357697</ele><time>2022-11-03T15:22:24Z</time><extensions><speed>1.040000</speed><course>125.859375</course><hAcc>10.000000</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

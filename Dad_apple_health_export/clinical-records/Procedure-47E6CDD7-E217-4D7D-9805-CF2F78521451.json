@@ -1,0 +1,59 @@
+{
+  "status" : "completed",
+  "id" : "a-7697.prda.413877.2",
+  "code" : {
+    "text" : "Cerumen Removal",
+    "coding" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "code" : "69210,59"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-413877"
+  },
+  "performer" : [
+    {
+      "actor" : {
+        "reference" : "Practitioner/a-7697.Provider-6"
+      },
+      "onBehalfOf" : {
+        "reference" : "Organization/a-7697.Department-2"
+      }
+    }
+  ],
+  "identifier" : [
+    {
+      "value" : "a-7697.prda.413877.2",
+      "system" : "https://fhir.athena.io/sid/ah-procedure"
+    }
+  ],
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+    ]
+  },
+  "performedPeriod" : {
+    "start" : "2020-09-03T19:23:00Z",
+    "end" : "2020-09-03T20:29:03Z"
+  },
+  "resourceType" : "Procedure",
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  }
+}

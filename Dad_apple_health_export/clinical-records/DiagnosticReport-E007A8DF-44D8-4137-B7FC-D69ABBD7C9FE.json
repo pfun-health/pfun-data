@@ -1,0 +1,94 @@
+{
+  "id" : "a-7697.clinicalresult-5338",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code" : "LAB"
+        }
+      ]
+    }
+  ],
+  "effectiveDateTime" : "2014-01-02T14:20:00.000Z",
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DiagnosticReport",
+  "performer" : [
+    {
+      "reference" : "Organization/a-1.CP-11872698"
+    }
+  ],
+  "code" : {
+    "text" : "lipid panel",
+    "coding" : [
+      {
+        "display" : "lipid panel",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-order-type",
+        "code" : "257492"
+      },
+      {
+        "display" : "lipid panel",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-provider-order-type",
+        "code" : "940026"
+      }
+    ]
+  },
+  "meta" : {
+    "lastUpdated" : "2015-09-29T08:29:46.000Z"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-note-to-patient",
+      "valueString" : "Your cholesterol was fine at 166. Your triglycerides were high at 248. Your LDL bad cholesterol is at goal with a value of 61"
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-document-details",
+      "extension" : [
+        {
+          "url" : "status",
+          "valueString" : "CLOSED"
+        }
+      ]
+    }
+  ],
+  "result" : [
+    {
+      "reference" : "Observation/a-7697.resultamb-14646"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14647"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14648"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14649"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14650"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14651"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-14652"
+    }
+  ],
+  "status" : "final",
+  "issued" : "2014-01-02T19:29:19.000Z"
+}

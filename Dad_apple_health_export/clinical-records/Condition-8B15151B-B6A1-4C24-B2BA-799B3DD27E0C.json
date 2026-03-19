@@ -1,0 +1,89 @@
+{
+  "id" : "a-7697.Problem-315348",
+  "category" : [
+    {
+      "text" : "Problem List Item",
+      "coding" : [
+        {
+          "display" : "Problem List Item",
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "onsetDateTime" : "2025-01-09",
+  "resourceType" : "Condition",
+  "verificationStatus" : {
+    "text" : "Confirmed",
+    "coding" : [
+      {
+        "display" : "Confirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code" : "confirmed"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.Problem-315348"
+    }
+  ],
+  "code" : {
+    "text" : "Hx of myocardial ischemia",
+    "coding" : [
+      {
+        "code" : "275905002",
+        "userSelected" : false,
+        "display" : "History of myocardial problem",
+        "system" : "http://snomed.info/sct"
+      },
+      {
+        "code" : "Z86.79",
+        "userSelected" : false,
+        "display" : "Personal history of other diseases of the circulatory system",
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+      },
+      {
+        "code" : "2778043",
+        "userSelected" : true,
+        "display" : "Hx of myocardial ischemia",
+        "system" : "urn:oid:2.16.840.1.113883.3.247.1.1"
+      }
+    ]
+  },
+  "recordedDate" : "2025-01-09T13:37:08-05:00",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ],
+    "lastUpdated" : "2026-02-04T23:06:32.000-05:00"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "clinicalStatus" : {
+    "text" : "Active",
+    "coding" : [
+      {
+        "display" : "Active",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code" : "active"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id" : "a-7697.consultationNote-2105326",
+  "description" : "Cardiologist Consult Note",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "author" : [
+    {
+      "reference" : "Practitioner/a-1.CP-11860949"
+    }
+  ],
+  "resourceType" : "DocumentReference",
+  "context" : {
+    "period" : {
+      "start" : "2018-03-29T21:39:53Z",
+      "end" : "2018-03-29T21:39:53Z"
+    }
+  },
+  "type" : {
+    "coding" : [
+      {
+        "display" : "Consult note",
+        "system" : "http://loinc.org",
+        "code" : "11488-4"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.consultationNote-2105326",
+      "system" : "https://fhir.athena.io/sid/ah-documentreference"
+    }
+  ],
+  "date" : "2018-03-29T21:39:53.000Z",
+  "meta" : {
+    "lastUpdated" : "2018-03-30T18:10:22.000Z"
+  },
+  "custodian" : {
+    "reference" : "Organization/a-1.Org-ATHENA"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753989",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753990",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753991",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753992",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753993",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753994",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.2105326.dp.SCANPAGE.753995",
+        "contentType" : "image/png"
+      }
+    }
+  ]
+}

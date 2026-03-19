@@ -1,0 +1,88 @@
+{
+  "id" : "a-7697.dischargeSummary-5004216",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "description" : "Discharge Summary",
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DocumentReference",
+  "context" : {
+    "period" : {
+      "start" : "2021-12-09T17:16:14Z",
+      "end" : "2021-12-09T17:16:14Z"
+    }
+  },
+  "type" : {
+    "coding" : [
+      {
+        "display" : "Discharge summary",
+        "system" : "http://loinc.org",
+        "code" : "18842-5"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.dischargeSummary-5004216",
+      "system" : "https://fhir.athena.io/sid/ah-documentreference"
+    }
+  ],
+  "date" : "2021-12-09T17:16:14.000Z",
+  "meta" : {
+    "lastUpdated" : "2021-12-13T13:16:24.000Z"
+  },
+  "custodian" : {
+    "reference" : "Organization/a-1.Org-ATHENA"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.5004216.dp.SCANPAGE.1903439",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.5004216.dp.SCANPAGE.1903440",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.5004216.dp.SCANPAGE.1903441",
+        "contentType" : "image/png"
+      }
+    },
+    {
+      "attachment" : {
+        "url" : "Binary/a-7697.DR-doc.5004216.dp.SCANPAGE.1903442",
+        "contentType" : "image/png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id" : "a-7697.hpiNote-491019",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    },
+    {
+      "coding" : [
+        {
+          "display" : "Encounter Note",
+          "system" : "https://fhir.athena.io/CodeSystem/ah-document-reference-category",
+          "code" : "encounter-note"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "author" : [
+    {
+      "reference" : "Practitioner/a-7697.Provider-8"
+    },
+    {
+      "reference" : "Practitioner/a-7697.Provider-7"
+    }
+  ],
+  "resourceType" : "DocumentReference",
+  "context" : {
+    "period" : {
+      "start" : "2021-07-30T17:18:53Z",
+      "end" : "2021-07-30T18:18:25Z"
+    },
+    "encounter" : [
+      {
+        "reference" : "Encounter/a-7697.encounter-491019",
+        "identifier" : {
+          "value" : "a-7697.encounter-491019",
+          "system" : "https://fhir.athena.io/sid/ah-encounter"
+        }
+      }
+    ]
+  },
+  "type" : {
+    "coding" : [
+      {
+        "display" : "History and physical note",
+        "system" : "http://loinc.org",
+        "code" : "34117-2"
+      },
+      {
+        "display" : "History of Present Illness Narrative",
+        "system" : "http://loinc.org",
+        "code" : "10164-2"
+      },
+      {
+        "display" : "History and physical note",
+        "system" : "https://hl7.org/fhir/valueset-doc-section-codes.html",
+        "code" : "34117-2"
+      },
+      {
+        "display" : "History of Present Illness Narrative",
+        "system" : "https://hl7.org/fhir/valueset-doc-section-codes.html",
+        "code" : "10164-2"
+      },
+      {
+        "display" : "History of Present Illness Note",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-encounter-section-item",
+        "code" : "HPINote"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.hpiNote-491019",
+      "system" : "https://fhir.athena.io/sid/ah-documentreference"
+    }
+  ],
+  "date" : "2021-07-30T17:30:00.000Z",
+  "custodian" : {
+    "reference" : "Organization/a-1.Org-ATHENA"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "_data" : {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode" : "unknown"
+            }
+          ]
+        },
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode" : "unknown"
+          }
+        ],
+        "contentType" : "application/octet-stream"
+      },
+      "extension" : [
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode" : "unknown"
+        }
+      ]
+    }
+  ]
+}

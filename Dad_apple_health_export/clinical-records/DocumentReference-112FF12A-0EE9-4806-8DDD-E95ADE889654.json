@@ -1,0 +1,54 @@
+{
+  "author" : [
+    {
+      "reference" : "Practitioner/a-7697.Provider-4"
+    }
+  ],
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Clinical Note",
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "content" : [
+    {
+      "attachment" : {
+        "contentType" : "text/html",
+        "hash" : "oFca9JBDumWYHZs82PcG2sQt808="
+      }
+    }
+  ],
+  "id" : "a-7697.historyPhysicalNote-178179",
+  "status" : "current",
+  "context" : {
+    "period" : {
+      "end" : "2017-05-17T12:22:58Z",
+      "start" : "2017-05-17T11:36:06Z"
+    },
+    "encounter" : [
+      {
+        "reference" : "Encounter/a-7697.encounter-178179",
+        "identifier" : {
+          "system" : "https://fhir.athena.io/sid/ah-encounter",
+          "value" : "a-7697.encounter-178179"
+        }
+      }
+    ]
+  },
+  "date" : "2017-05-17T11:45:00.000Z",
+  "type" : {
+    "coding" : [
+      {
+        "display" : "History and physical note",
+        "system" : "http://loinc.org",
+        "code" : "34117-2"
+      }
+    ]
+  },
+  "resourceType" : "DocumentReference"
+}

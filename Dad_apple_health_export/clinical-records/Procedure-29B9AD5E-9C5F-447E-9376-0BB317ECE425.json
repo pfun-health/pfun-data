@@ -1,0 +1,60 @@
+{
+  "status" : "completed",
+  "id" : "a-7697.prda.451313.221",
+  "code" : {
+    "text" : "COVID VACCINE",
+    "coding" : [
+      {
+        "display" : "Procedure",
+        "system" : "http://snomed.info/sct",
+        "code" : "71388002"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-451313"
+  },
+  "performer" : [
+    {
+      "actor" : {
+        "reference" : "Practitioner/a-7697.Provider-7"
+      },
+      "onBehalfOf" : {
+        "reference" : "Organization/a-7697.Department-9"
+      }
+    }
+  ],
+  "identifier" : [
+    {
+      "value" : "a-7697.prda.451313.221",
+      "system" : "https://fhir.athena.io/sid/ah-procedure"
+    }
+  ],
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+    ]
+  },
+  "performedPeriod" : {
+    "start" : "2021-02-16T12:11:42Z",
+    "end" : "2021-02-16T14:44:19Z"
+  },
+  "resourceType" : "Procedure",
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  }
+}

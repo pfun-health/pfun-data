@@ -1,0 +1,104 @@
+{
+  "id" : "a-7697.clinicalresult-302886",
+  "effectiveDateTime" : "2017-11-29T00:00:00.000Z",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code" : "LAB"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-208674"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "DiagnosticReport",
+  "basedOn" : [
+    {
+      "reference" : "ServiceRequest/a-7697.ambulatoryorder-1898457"
+    }
+  ],
+  "code" : {
+    "text" : "lipid panel w/ chol/HDL ratio-221010-P",
+    "coding" : [
+      {
+        "display" : "Lipid 1996 panel - Serum or Plasma",
+        "system" : "http://loinc.org",
+        "code" : "24331-1"
+      },
+      {
+        "display" : "lipid panel, serum",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-order-type",
+        "code" : "342286"
+      },
+      {
+        "display" : "lipid panel w/ chol/HDL ratio-221010-P",
+        "system" : "https://fhir.athena.io/CodeSystem/ah-clinical-provider-order-type",
+        "code" : "678997"
+      }
+    ]
+  },
+  "performer" : [
+    {
+      "reference" : "Organization/a-1.CP-10810885"
+    }
+  ],
+  "meta" : {
+    "lastUpdated" : "2017-11-30T23:46:47.000Z"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-note-to-patient",
+      "valueString" : "<div><span>Your cholesterol was okay.</span><br><br><div><span>Triglycerides are found in fried foods, desserts, ice cream, cheese, red meat, salad dressings, etc. Eat much less sugar and bread. Fish or flaxseed oil capsules at 2 - 4 grams per day of EPA and DHA have also been shown to lower triglycerides.</span></div></div>"
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-document-details",
+      "extension" : [
+        {
+          "url" : "status",
+          "valueString" : "CLOSED"
+        }
+      ]
+    }
+  ],
+  "result" : [
+    {
+      "reference" : "Observation/a-7697.resultamb-1306480"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-1306481"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-1306482"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-1306483"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-1306484"
+    },
+    {
+      "reference" : "Observation/a-7697.resultamb-1306485"
+    }
+  ],
+  "status" : "final",
+  "issued" : "2017-11-30T22:09:41.000Z"
+}

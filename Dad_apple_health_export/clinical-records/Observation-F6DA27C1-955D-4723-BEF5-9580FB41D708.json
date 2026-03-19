@@ -1,0 +1,77 @@
+{
+  "id" : "a-7697.resultamb-5053792",
+  "effectiveDateTime" : "2024-06-24T14:40:55-04:00",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "Observation",
+  "identifier" : [
+    {
+      "value" : "a-7697.resultamb-5053792",
+      "system" : "https://fhir.athena.io/sid/ah-observation"
+    }
+  ],
+  "interpretation" : [
+    {
+      "text" : "normal",
+      "coding" : [
+        {
+          "code" : "N",
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "display" : "Normal",
+          "version" : "2.1.0"
+        }
+      ]
+    }
+  ],
+  "code" : {
+    "text" : "chloride",
+    "coding" : [
+      {
+        "display" : "Chloride",
+        "system" : "L",
+        "code" : "CL"
+      }
+    ]
+  },
+  "meta" : {
+    "lastUpdated" : "2024-06-24T18:40:55.000Z"
+  },
+  "referenceRange" : [
+    {
+      "text" : "98 - 107"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mmol/L",
+    "value" : 105,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "mmol/L"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "final"
+}

@@ -1,0 +1,44 @@
+{
+  "performedDateTime" : "1955-12",
+  "status" : "completed",
+  "id" : "a-7697.shb.379.2065",
+  "code" : {
+    "text" : "Angioplasty",
+    "coding" : [
+      {
+        "display" : "Procedure",
+        "system" : "http://snomed.info/sct",
+        "code" : "71388002"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.shb.379.2065",
+      "system" : "https://fhir.athena.io/sid/ah-procedure"
+    }
+  ],
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "resourceType" : "Procedure"
+}

@@ -1,0 +1,55 @@
+{
+  "id" : "a-7697.historical-289603",
+  "patient" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2022-09-18",
+  "identifier" : [
+    {
+      "value" : "a-7697.historical-289603",
+      "system" : "https://fhir.athena.io/sid/ah-immunization"
+    }
+  ],
+  "lotNumber" : "FJ2603",
+  "isSubpotent" : false,
+  "meta" : {
+    "lastUpdated" : "2023-11-09T13:56:56.000-05:00"
+  },
+  "route" : {
+    "text" : "Intramuscular",
+    "coding" : [
+      {
+        "display" : "Intramuscular use",
+        "system" : "http://snomed.info/sct",
+        "code" : "78421000"
+      }
+    ]
+  },
+  "vaccineCode" : {
+    "text" : "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+    "coding" : [
+      {
+        "display" : "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "216"
+      }
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "completed",
+  "primarySource" : false
+}

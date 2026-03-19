@@ -1,0 +1,95 @@
+{
+  "id" : "a-7697.EncounterDx-659301",
+  "category" : [
+    {
+      "text" : "Encounter Diagnosis",
+      "coding" : [
+        {
+          "display" : "Encounter Diagnosis",
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "encounter-diagnosis"
+        }
+      ]
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/a-7697.encounter-338584"
+  },
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "note" : [
+    {
+      "text" : "left dorsum foot - refer to ortho"
+    }
+  ],
+  "resourceType" : "Condition",
+  "onsetDateTime" : "2019-09-11T09:05:33-04:00",
+  "verificationStatus" : {
+    "text" : "Confirmed",
+    "coding" : [
+      {
+        "display" : "Confirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code" : "confirmed"
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.EncounterDx-659301"
+    }
+  ],
+  "code" : {
+    "text" : "Ganglion of foot",
+    "coding" : [
+      {
+        "code" : "297194001",
+        "userSelected" : false,
+        "display" : "Ganglion of foot",
+        "system" : "http://snomed.info/sct"
+      },
+      {
+        "code" : "M67.479",
+        "userSelected" : true,
+        "display" : "Ganglion, unspecified ankle and foot",
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+      }
+    ]
+  },
+  "recordedDate" : "2019-09-11T09:05:33-04:00",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ],
+    "lastUpdated" : "2019-09-11T09:06:06.000-04:00"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime" : "2019-09-11T09:05:33-04:00"
+    }
+  ],
+  "clinicalStatus" : {
+    "text" : "Active",
+    "coding" : [
+      {
+        "display" : "Active",
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code" : "active"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id" : "a-7697.resultamb-5393999",
+  "effectiveDateTime" : "2025-01-07T11:49:11-05:00",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "display" : "Laboratory",
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "reference" : "Patient/a-7697.E-324"
+  },
+  "resourceType" : "Observation",
+  "specimen" : {
+    "reference" : "Specimen/a-7697.als-8223729"
+  },
+  "identifier" : [
+    {
+      "value" : "a-7697.resultamb-5393999",
+      "system" : "https://fhir.athena.io/sid/ah-observation"
+    }
+  ],
+  "interpretation" : [
+    {
+      "text" : "normal",
+      "coding" : [
+        {
+          "code" : "N",
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "display" : "Normal",
+          "version" : "2.1.0"
+        }
+      ]
+    }
+  ],
+  "code" : {
+    "text" : "low density lipoprotein",
+    "coding" : [
+      {
+        "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma",
+        "system" : "http://loinc.org",
+        "code" : "2089-1"
+      },
+      {
+        "display" : "Low Density Lipoprotein",
+        "system" : "L",
+        "code" : "LDLc"
+      }
+    ]
+  },
+  "meta" : {
+    "lastUpdated" : "2025-01-09T18:21:14.000Z"
+  },
+  "referenceRange" : [
+    {
+      "text" : "0 - 99"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "value" : 81,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "mg/dL"
+  },
+  "extension" : [
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-practice",
+      "valueReference" : {
+        "reference" : "Organization/a-1.Practice-7697"
+      }
+    },
+    {
+      "url" : "https://fhir.athena.io/StructureDefinition/ah-chart-sharing-group",
+      "valueReference" : {
+        "reference" : "Organization/a-7697.CSG-1"
+      }
+    }
+  ],
+  "status" : "final"
+}
