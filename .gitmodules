@@ -1,0 +1,3 @@
+[submodule "dependencies/zip-to-parquet"]
+	path = dependencies/zip-to-parquet
+	url = https://github.com/pfun-health/zip-to-parquet
