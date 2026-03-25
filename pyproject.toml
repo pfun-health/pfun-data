@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pfun-data-unzipcsv2parquet = "data.tools:main"
+pfun-data-unzipcsv2parquet = "pfun_data.tools:main"
 
 [build-system]
 requires = ["hatchling", "wheel", "setuptools"]
