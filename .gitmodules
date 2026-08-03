@@ -1,3 +1,6 @@
 [submodule "dependencies/zip-to-parquet"]
 	path = dependencies/zip-to-parquet
 	url = https://github.com/pfun-health/zip-to-parquet
+[submodule "_raw_data/ohiot1dm-glucose-dataset"]
+	path = _raw_data/ohiot1dm-glucose-dataset
+	url = https://github.com/pfun-health/ohiot1dm-glucose-dataset
